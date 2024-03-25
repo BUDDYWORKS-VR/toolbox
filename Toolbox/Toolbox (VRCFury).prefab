@@ -772,7 +772,7 @@ MonoBehaviour:
         propBone: {fileID: 389520329970958371}
         linkTo:
         - useBone: 1
-          bone: 10
+          bone: 9
           useObj: 0
           obj: {fileID: 0}
           offset: 

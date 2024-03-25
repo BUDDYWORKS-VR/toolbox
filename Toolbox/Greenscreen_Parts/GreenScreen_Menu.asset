@@ -34,6 +34,16 @@ MonoBehaviour:
     subParameters:
     - name: Toolbox/Greenscreen/Scale
     labels: []
+  - name: <b><size=23><line-height=100%><voffset=24.5em>Disable World Post-Processing
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
   - name: Saturation
     icon: {fileID: 0}
     type: 203
