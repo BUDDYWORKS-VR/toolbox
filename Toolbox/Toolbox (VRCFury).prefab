@@ -46,7 +46,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
-  m_SpotAngle: 30
+  m_SpotAngle: 50
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 2
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.680.0
+  vrcfuryVersion: 1.692.0
   config:
     features:
     - rid: 1921145921880981510
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 2
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.680.0
+  vrcfuryVersion: 1.692.0
   config:
     features:
     - rid: 933087957055963447
