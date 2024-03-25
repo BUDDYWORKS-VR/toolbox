@@ -24,12 +24,24 @@ public class InstantiateAndPingPrefabByGUID : MonoBehaviour
 
         // Load prefab
         GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
+        GameObject selectedObject = Selection.activeGameObject;
 
         if (prefab == null)
         {
             Debug.LogError("Failed to load prefab with GUID " + prefabGUID + " at path " + prefabPath);
             return;
         }
+
+        // Instantiate to selection if possible
+            if (selectedObject != null)
+            {
+                GameObject instantiatedPrefab = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
+                instantiatedPrefab.transform.parent = selectedObject.transform;
+                EditorGUIUtility.PingObject(instantiatedPrefab);
+            }
+
+            else
+            {
 
         // Instantiate the prefab as a prefab
         GameObject instantiatedPrefab = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
@@ -43,6 +55,7 @@ public class InstantiateAndPingPrefabByGUID : MonoBehaviour
         {
             Debug.LogError("Failed to instantiate prefab with GUID " + prefabGUID);
         }
+      }
     }
   }
 }
