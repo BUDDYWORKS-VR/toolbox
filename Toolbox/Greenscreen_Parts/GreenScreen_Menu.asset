@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: Toggle
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 102
     parameter:
       name: Toolbox/Greenscreen/Toggle
@@ -24,7 +24,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Scale
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 203
     parameter:
       name: 
@@ -45,7 +45,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: Saturation
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 203
     parameter:
       name: 
@@ -56,7 +56,7 @@ MonoBehaviour:
     - name: Toolbox/Greenscreen/Saturation
     labels: []
   - name: Color
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 203
     parameter:
       name: 

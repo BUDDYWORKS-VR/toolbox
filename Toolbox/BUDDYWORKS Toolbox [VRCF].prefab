@@ -155,7 +155,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.5009999}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2699678348070725291}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -221,6 +221,8 @@ GameObject:
   - component: {fileID: 9053693497729476391}
   - component: {fileID: 1837449657302034368}
   - component: {fileID: 3469304493934112754}
+  - component: {fileID: 7514459296516915629}
+  - component: {fileID: 3583441474470338035}
   m_Layer: 0
   m_Name: WireframeNoCam
   m_TagString: Untagged
@@ -309,7 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.772.0
+  vrcfuryVersion: 1.829.0
   somethingIsBroken: 0
   config:
     features: []
@@ -322,7 +324,7 @@ MonoBehaviour:
       type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 3
-        name: <color=#FDDA0D><b>Stuff/<color=#FDDA0D><b>Toolbox/Debug/Wireframe
+        name: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Debug/Wireframe
         state:
           actions: []
         saved: 0
@@ -336,13 +338,13 @@ MonoBehaviour:
         exclusiveTag: Wireframe
         resetPhysbones: []
         hasExitTime: 0
-        enableIcon: 0
+        enableIcon: 1
         icon:
           version: 1
           fileID: 0
           guid: 
-          id: 
-          objRef: {fileID: 0}
+          id: aac33737b7aa3174a8c76c7ef582f3d8|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/Play.png
+          objRef: {fileID: 2800000, guid: aac33737b7aa3174a8c76c7ef582f3d8, type: 3}
         enableDriveGlobalParam: 0
         driveGlobalParam: 
         separateLocal: 1
@@ -376,6 +378,67 @@ MonoBehaviour:
         androidActive: 0
         obj: {fileID: 3803060922080423601}
         mode: 0
+--- !u!114 &7514459296516915629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3803060922080423601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.829.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1425553191935148068
+  references:
+    version: 2
+    RefIds:
+    - rid: 1425553191935148068
+      type: {class: ShowInFirstPerson, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+--- !u!114 &3583441474470338035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3803060922080423601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.829.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1425553192052588649
+  references:
+    version: 2
+    RefIds:
+    - rid: 1425553192052588649
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D>Debug
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: aac33737b7aa3174a8c76c7ef582f3d8|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/Play.png
+          objRef: {fileID: 2800000, guid: aac33737b7aa3174a8c76c7ef582f3d8, type: 3}
 --- !u!1 &4393208820696770780
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +533,38 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &4619921094629451247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3167538584120421499}
+  m_Layer: 0
+  m_Name: Fullbright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3167538584120421499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4619921094629451247}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 867719458583421993}
+  m_Father: {fileID: 3854334756930604301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4999588572357511618
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,7 +574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3411141217792623049}
-  - component: {fileID: 59708620457824173}
+  - component: {fileID: 7249420301861148135}
   m_Layer: 0
   m_Name: Torch
   m_TagString: Untagged
@@ -501,9 +596,9 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3281193946214072633}
-  m_Father: {fileID: 6595320519835830193}
+  m_Father: {fileID: 3854334756930604301}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &59708620457824173
+--- !u!114 &7249420301861148135
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -515,88 +610,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
+  version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.772.0
+  vrcfuryVersion: 1.829.0
   somethingIsBroken: 0
   config:
-    features:
-    - rid: 1921145921880981510
-    - rid: 1921145921880981512
+    features: []
   content:
-    rid: -2
+    rid: 1425553191935148034
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
-    - rid: 1921145921880981510
-      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 3
-        name: <color=#FDDA0D><b>Stuff/<color=#FDDA0D><b>Toolbox/Torch
-        state:
-          actions:
-          - rid: 1921145921880981511
-        saved: 0
-        slider: 0
-        sliderInactiveAtZero: 0
-        securityEnabled: 0
-        defaultOn: 0
-        includeInRest: 0
-        exclusiveOffState: 0
-        enableExclusiveTag: 0
-        exclusiveTag: 
-        resetPhysbones: []
-        hasExitTime: 0
-        enableIcon: 0
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 
-          objRef: {fileID: 0}
-        enableDriveGlobalParam: 0
-        driveGlobalParam: 
-        separateLocal: 0
-        localState:
-          actions: []
-        hasTransition: 0
-        transitionStateIn:
-          actions: []
-        transitionStateOut:
-          actions: []
-        transitionTimeIn: 0
-        transitionTimeOut: 0
-        localTransitionStateIn:
-          actions: []
-        localTransitionStateOut:
-          actions: []
-        localTransitionTimeIn: 0
-        localTransitionTimeOut: 0
-        simpleOutTransition: 1
-        defaultSliderValue: 0
-        useGlobalParam: 1
-        globalParam: Toolbox/Torch
-        holdButton: 0
-        invertRestLogic: 0
-    - rid: 1921145921880981511
-      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
-      data:
-        version: 1
-        desktopActive: 0
-        androidActive: 0
-        obj: {fileID: 1248579407283074289}
-        mode: 0
-    - rid: 1921145921880981512
+    - rid: 1425553191935148034
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
-        version: 5
+        version: 6
         linkMode: 4
         propBone: {fileID: 1248579407283074289}
         linkTo:
         - useBone: 1
-          bone: 0
+          bone: 10
           useObj: 0
           obj: {fileID: 0}
           offset: 
@@ -620,8 +653,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6595320519835830193}
+  - component: {fileID: 7466079020414247849}
   m_Layer: 0
-  m_Name: Toolbox (VRCFury)
+  m_Name: BUDDYWORKS Toolbox [VRCF]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -642,10 +676,138 @@ Transform:
   m_Children:
   - {fileID: 4991338156833942363}
   - {fileID: 8636446563325277500}
-  - {fileID: 3411141217792623049}
   - {fileID: 2491778745174183692}
+  - {fileID: 3854334756930604301}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7466079020414247849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5023642846638271476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.829.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1425553192052588639
+  references:
+    version: 2
+    RefIds:
+    - rid: 1425553192052588639
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: <color=#FDDA0D><b>Toolbox
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b3b62ae265e5a8643b6640ad3b4f5119|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/Inbox.png
+          objRef: {fileID: 2800000, guid: b3b62ae265e5a8643b6640ad3b4f5119, type: 3}
+--- !u!1 &5591878670812196769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867719458583421993}
+  - component: {fileID: 1353920987527550761}
+  m_Layer: 0
+  m_Name: Fullbright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &867719458583421993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5591878670812196769}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.70710707, y: -0, z: -0, w: 0.70710653}
+  m_LocalPosition: {x: 0, y: 290.9, z: 0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 3167538584120421499}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!108 &1353920987527550761
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5591878670812196769}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 1342.34
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &5666584981939509585
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +819,7 @@ GameObject:
   - component: {fileID: 3256225820340744369}
   - component: {fileID: 8153255233198045899}
   - component: {fileID: 9170148706380437000}
+  - component: {fileID: 5444832053136142517}
   m_Layer: 0
   m_Name: Screen
   m_TagString: Untagged
@@ -729,6 +892,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5444832053136142517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5666584981939509585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.829.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1425553191935148067
+  references:
+    version: 2
+    RefIds:
+    - rid: 1425553191935148067
+      type: {class: ShowInFirstPerson, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
 --- !u!1 &6415656129874294291
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,20 +965,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
+  version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.772.0
+  vrcfuryVersion: 1.829.0
   somethingIsBroken: 0
   config:
-    features:
-    - rid: 933087957055963447
+    features: []
   content:
-    rid: -2
+    rid: 933087957055963447
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
     - rid: 933087957055963447
       type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
       data:
@@ -808,7 +995,7 @@ MonoBehaviour:
             guid: 
             id: a2c1cade7ddd6544cb06569e6a2d4293|Packages/wtf.buddyworks.toolbox/Toolbox/NPV_Parts/NamePlate_Menu.asset
             objRef: {fileID: 11400000, guid: a2c1cade7ddd6544cb06569e6a2d4293, type: 2}
-          prefix: <color=#FDDA0D><b>Stuff/<color=#FDDA0D><b>Toolbox
+          prefix: <color=#FDDA0D><b>Toolbox
         prms:
         - parameters:
             version: 1
@@ -821,7 +1008,6 @@ MonoBehaviour:
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
-        useSecurityForToggle: 0
         rootObjOverride: {fileID: 0}
         rootBindingsApplyToAvatar: 0
         rewriteBindings:
@@ -850,6 +1036,7 @@ MonoBehaviour:
         submenu: 
         removePrefixes: []
         addPrefix: 
+        useSecurityForToggle: 0
 --- !u!1818360610 &1518886151582062313
 ScaleConstraint:
   m_ObjectHideFlags: 0
@@ -986,6 +1173,163 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8146893343443668133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3854334756930604301}
+  - component: {fileID: 5480218061432022672}
+  - component: {fileID: 8942846928555857155}
+  m_Layer: 0
+  m_Name: Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3854334756930604301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8146893343443668133}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 3167538584120421499}
+  - {fileID: 3411141217792623049}
+  m_Father: {fileID: 6595320519835830193}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5480218061432022672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8146893343443668133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.829.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1425553192052588580
+  references:
+    version: 2
+    RefIds:
+    - rid: 1425553192052588580
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 62cfa2fd62750f54ea4800b92a90a80a|Packages/wtf.buddyworks.toolbox/Toolbox/Light_Parts/Light_FX.controller
+            objRef: {fileID: 9100000, guid: 62cfa2fd62750f54ea4800b92a90a80a, type: 2}
+          type: 5
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 8160bab72b1e84b428cbe15973fa8034|Packages/wtf.buddyworks.toolbox/Toolbox/Light_Parts/Lights-Menu.asset
+            objRef: {fileID: 11400000, guid: 8160bab72b1e84b428cbe15973fa8034, type: 2}
+          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Light
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 75538e1f0d041204cb86d7df40e7b4d0|Packages/wtf.buddyworks.toolbox/Toolbox/Light_Parts/Lights-Parameters.asset
+            objRef: {fileID: 11400000, guid: 75538e1f0d041204cb86d7df40e7b4d0, type: 2}
+        smoothedPrms: []
+        globalParams:
+        - Toolbox/Torch
+        - Toolbox/Torch_Range
+        - Toolbox/Torch_Brightness
+        - Toolbox/FullBright
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings:
+        - from: Toolbox [VRCF]/Lights/
+          to: 
+          delete: 0
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
+--- !u!114 &8942846928555857155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8146893343443668133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.829.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1425553192052588630
+  references:
+    version: 2
+    RefIds:
+    - rid: 1425553192052588630
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Light
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 4900f71bb8b7575409c6646011adbde1|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/Sun.png
+          objRef: {fileID: 2800000, guid: 4900f71bb8b7575409c6646011adbde1, type: 3}
 --- !u!1 &9075165419656808196
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,7 +1340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8636446563325277500}
   - component: {fileID: 5662339111028109338}
-  - component: {fileID: 8054989581937186312}
+  - component: {fileID: 3443386754047822118}
   m_Layer: 0
   m_Name: GreenScreen
   m_TagString: Untagged
@@ -1034,7 +1378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.772.0
+  vrcfuryVersion: 1.829.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1062,7 +1406,7 @@ MonoBehaviour:
             guid: 
             id: 0dc7b460eba19644496f5505436e5d9a|Packages/wtf.buddyworks.toolbox/Toolbox/Greenscreen_Parts/GreenScreen_Menu.asset
             objRef: {fileID: 11400000, guid: 0dc7b460eba19644496f5505436e5d9a, type: 2}
-          prefix: <color=#FDDA0D><b>Stuff/<color=#FDDA0D><b>Toolbox/Greenscreen
+          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Greenscreen
         prms:
         - parameters:
             version: 1
@@ -1075,7 +1419,6 @@ MonoBehaviour:
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
-        useSecurityForToggle: 0
         rootObjOverride: {fileID: 0}
         rootBindingsApplyToAvatar: 0
         rewriteBindings:
@@ -1104,7 +1447,8 @@ MonoBehaviour:
         submenu: 
         removePrefixes: []
         addPrefix: 
---- !u!114 &8054989581937186312
+        useSecurityForToggle: 0
+--- !u!114 &3443386754047822118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1118,38 +1462,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.772.0
+  vrcfuryVersion: 1.829.0
   somethingIsBroken: 0
   config:
     features: []
   content:
-    rid: 2350507773837705384
+    rid: 1425553192052588628
   references:
     version: 2
     RefIds:
-    - rid: 2350507773837705384
-      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+    - rid: 1425553192052588628
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
       data:
-        version: 6
-        linkMode: 4
-        propBone: {fileID: 389520329970958371}
-        linkTo:
-        - useBone: 1
-          bone: 9
-          useObj: 0
-          obj: {fileID: 0}
-          offset: 
-        keepBoneOffsets2: 2
-        removeBoneSuffix: 
-        skinRewriteScalingFactor: 0
-        scalingFactorPowersOf10Only: 1
-        useOptimizedUpload: 0
-        useBoneMerging: 0
-        keepBoneOffsets: 0
-        physbonesOnAvatarBones: 0
-        boneOnAvatar: 0
-        bonePathOnAvatar: 
-        fallbackBones: 
+        version: 1
+        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Greenscreen
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 698e8708e85132048bd2fd05b7a4e426|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/Monitor.png
+          objRef: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
 --- !u!1 &9169194966950951433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +1491,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4991338156833942363}
-  - component: {fileID: 4394911760587161618}
   m_Layer: 0
   m_Name: Wireframe
   m_TagString: Untagged
@@ -1183,49 +1514,3 @@ Transform:
   - {fileID: 1107784241246621324}
   m_Father: {fileID: 6595320519835830193}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4394911760587161618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9169194966950951433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.772.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 2350508013938278400
-  references:
-    version: 2
-    RefIds:
-    - rid: 2350508013938278400
-      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 6
-        linkMode: 4
-        propBone: {fileID: 7459943425427103453}
-        linkTo:
-        - useBone: 1
-          bone: 9
-          useObj: 0
-          obj: {fileID: 0}
-          offset: 
-        keepBoneOffsets2: 0
-        removeBoneSuffix: 
-        skinRewriteScalingFactor: 0
-        scalingFactorPowersOf10Only: 1
-        useOptimizedUpload: 0
-        useBoneMerging: 0
-        keepBoneOffsets: 0
-        physbonesOnAvatarBones: 0
-        boneOnAvatar: 0
-        bonePathOnAvatar: 
-        fallbackBones: 

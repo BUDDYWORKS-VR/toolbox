@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace BUDDYWORKS.ToolBox.AddToHierarchy
+namespace BUDDYWORKS.ToolBox
 {
-    public class InstantiateAndPingPrefabByGUID : MonoBehaviour
+    public class SpawnToolboxPrefab : MonoBehaviour
     {
         public static string prefabGUID = "0e07d7ed7da2cc1449f6cc1be73f35fe";
 
-        [MenuItem("BUDDYWORKS/Toolbox/Spawn Prefab...")]
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Prefab...", false, 0)]
         public static void SpawnToolBoxPrefab()
         {
             SpawnPrefab(prefabGUID);
