@@ -1,7 +1,7 @@
 //2018/10/27/hhotatea
 //This Shader is released under the MIT License, see LICENSE.txt.
 
-Shader "BUDDYWORKS/WireFrameNoCamera" {
+Shader "SHADERWORKS/WireFrameNoCamera" {
 	Properties {
         _delta ("サンプル間隔",Range(0,2)) = 0.831
         _dist ("精度",Range(0,2)) = 0.001

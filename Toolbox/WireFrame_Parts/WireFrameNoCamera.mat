@@ -29,5 +29,5 @@ Material:
     - _dist: 0.001
     m_Colors:
     - _BGC: {r: 0, g: 0, b: 0, a: 0.428}
-    - _LineC: {r: 0, g: 1, b: 0, a: 1}
+    - _LineC: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

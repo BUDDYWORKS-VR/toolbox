@@ -13,11 +13,53 @@ MonoBehaviour:
   m_Name: Wireframe_Menu
   m_EditorClassIdentifier: 
   controls:
-  - name: <color=#FDDA0D><b>Wireframe</b></color>
+  - name: <color=#FDDA0D><b>Toggle Wireframe</b></color>
     icon: {fileID: 2800000, guid: aac33737b7aa3174a8c76c7ef582f3d8, type: 3}
     type: 102
     parameter:
       name: Toolbox/Wireframe
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <color=#FDDA0D><b>Distance</b></color>
+    icon: {fileID: 2800000, guid: aac33737b7aa3174a8c76c7ef582f3d8, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Toolbox/Wireframe_Distance
+    labels: []
+  - name: <color=#FDDA0D><b>Color</b></color>
+    icon: {fileID: 2800000, guid: aac33737b7aa3174a8c76c7ef582f3d8, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Toolbox/Wireframe_Color
+    labels: []
+  - name: <color=#FDDA0D><b>Invert</b></color>
+    icon: {fileID: 2800000, guid: aac33737b7aa3174a8c76c7ef582f3d8, type: 3}
+    type: 102
+    parameter:
+      name: Toolbox/Wireframe_Invert
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <color=#FDDA0D><b>Reset</b></color>
+    icon: {fileID: 2800000, guid: aac33737b7aa3174a8c76c7ef582f3d8, type: 3}
+    type: 101
+    parameter:
+      name: Toolbox/Wireframe_Reset
     value: 1
     style: 0
     subMenu: {fileID: 0}

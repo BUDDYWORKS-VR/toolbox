@@ -18,3 +18,23 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 0
+  - name: Toolbox/Wireframe_Distance
+    valueType: 1
+    saved: 1
+    defaultValue: 0.5
+    networkSynced: 0
+  - name: Toolbox/Wireframe_Color
+    valueType: 1
+    saved: 1
+    defaultValue: 0.16
+    networkSynced: 0
+  - name: Toolbox/Wireframe_Reset
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: Toolbox/Wireframe_Invert
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
