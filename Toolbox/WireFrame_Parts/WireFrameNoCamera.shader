@@ -3,15 +3,15 @@
 
 Shader "SHADERWORKS/WireFrameNoCamera" {
 	Properties {
-        _delta ("サンプル間隔",Range(0,2)) = 0.831
-        _dist ("精度",Range(0,2)) = 0.001
+        _delta ("Sample interval",Range(0,2)) = 0.831
+        _dist ("Precision",Range(0,2)) = 0.001
         _BGC ("背景色", Color) = (1,1,1,1)
         _LineC ("線の色", Color) = (0,0,0,1)
    	}
     SubShader {
         Tags { "Queue"="Transparent+10"	"RenderType"="Transparent" }
         LOD 200 
-        //Cull off  //ここを有効にすると板の裏面が有効になります。
+        Cull off  //ここを有効にすると板の裏面が有効になります。
         //Ztest always  //ここを有効にすると板より手前もワイヤーフレーム描写されます。
         Blend SrcAlpha OneMinusSrcAlpha 
 

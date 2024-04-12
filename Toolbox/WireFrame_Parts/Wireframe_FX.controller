@@ -347,7 +347,7 @@ MonoBehaviour:
     destMin: 0
     destMax: 0
   - type: 0
-    name: Toolbox/Wireframe_Invert
+    name: Toolbox/Wireframe_Precision
     source: 
     value: 0
     valueMin: 0
@@ -426,7 +426,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Toolbox/Wireframe_Invert
+  - m_Name: Toolbox/Wireframe_Precision
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -597,7 +597,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: Toolbox/Wireframe_Invert
+    m_DirectBlendParameter: Toolbox/Wireframe_Precision
     m_Mirror: 0
   m_BlendParameter: Blend
   m_BlendParameterY: Blend
