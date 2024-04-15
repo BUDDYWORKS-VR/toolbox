@@ -3,9 +3,9 @@
 Little toolbox with various features.
 VRCFury prefab for easy installation. (I hope)
 
-Dependencies:
--Liltoon
--Poiyomi Toon
--VRCFury
+Dependencies:  
+-Liltoon  
+-Poiyomi Toon  
+-VRCFury  
 
 Enjoy ❤️
