@@ -13,13 +13,24 @@ MonoBehaviour:
   m_Name: NamePlate_Menu
   m_EditorClassIdentifier: 
   controls:
-  - name: <color=#FDDA0D><b>NamePlates
+  - name: <color=#FDDA0D><b>Toggle
     icon: {fileID: 2800000, guid: 9c89f2e3eddb95849aa7b52daf5e2c15, type: 3}
     type: 102
     parameter:
-      name: NPV_Active
+      name: Toolbox/Nameplate_Toggle
     value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
+    labels: []
+  - name: <color=#FDDA0D><b>Range
+    icon: {fileID: 2800000, guid: 9c89f2e3eddb95849aa7b52daf5e2c15, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Toolbox/Nameplate_Range
     labels: []

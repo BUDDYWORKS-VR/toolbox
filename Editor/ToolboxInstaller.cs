@@ -5,15 +5,22 @@ namespace BUDDYWORKS.ToolBox
 {
     public class SpawnToolboxPrefab : MonoBehaviour
     {
-        public static string prefabGUID = "0e07d7ed7da2cc1449f6cc1be73f35fe";
+        private static string prefabGUID = "0e07d7ed7da2cc1449f6cc1be73f35fe";
         // Dependency check
-        public static string liltoonShader = "lilToon";
+        private static string liltoonShader = "lilToon";
+        private static string VRCF_Path = "Packages/com.vrcfury.vrcfury";
 
-        [MenuItem("BUDDYWORKS/Toolbox/Spawn Prefab...", false, 0)]
-        public static void SpawnToolBoxPrefab()
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Prefab... [VRCFury]", false, 0)]
+        private static void SpawnToolBoxPrefab()
         {
             CheckShaderPresence(liltoonShader);
             SpawnPrefab(prefabGUID);
+        }
+
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Prefab... [VRCFury]", true)]
+        private static bool ValidateSpawnToolBoxPrefab()
+        {
+            return AssetDatabase.IsValidFolder(VRCF_Path) != false;
         }
 
         private static void SpawnPrefab(string guid)

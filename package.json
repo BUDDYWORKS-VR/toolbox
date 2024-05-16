@@ -1,7 +1,7 @@
 {
   "name" : "wtf.buddyworks.toolbox",
   "displayName" : "BUDDYWORKS Toolbox",
-  "version" : "1.1.1",
+  "version" : "1.1.8",
   "unity" : "2022.3",
   "description" : "Set of useful Avatar tools.",
   "author": {

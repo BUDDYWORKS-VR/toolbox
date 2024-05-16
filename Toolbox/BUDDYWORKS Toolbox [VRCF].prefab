@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -229,7 +229,7 @@ MonoBehaviour:
             guid: 
             id: 6b26b5a85e39a1845aae47c737a70b77|Packages/wtf.buddyworks.toolbox/Toolbox/WireFrame_Parts/Wireframe_Root.asset
             objRef: {fileID: 11400000, guid: 6b26b5a85e39a1845aae47c737a70b77, type: 2}
-          prefix: <color=#FDDA0D><b>Toolbox
+          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings
         prms:
         - parameters:
             version: 1
@@ -238,7 +238,12 @@ MonoBehaviour:
             id: 013298a5a1ac99540b0410f8b807a36e|Packages/wtf.buddyworks.toolbox/Toolbox/WireFrame_Parts/Wireframe_Parameters.asset
             objRef: {fileID: 11400000, guid: 013298a5a1ac99540b0410f8b807a36e, type: 2}
         smoothedPrms: []
-        globalParams: []
+        globalParams:
+        - Toolbox/Wireframe
+        - Toolbox/Wireframe_Distance
+        - Toolbox/Wireframe_Color
+        - Toolbox/Wireframe_Reset
+        - Toolbox/Wireframe_Precision
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
@@ -350,7 +355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -416,6 +421,7 @@ Transform:
   - {fileID: 2491778745174183692}
   - {fileID: 3854334756930604301}
   - {fileID: 6461675903808860382}
+  - {fileID: 6621987023241686356}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7466079020414247849
@@ -432,7 +438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -818,6 +824,7 @@ GameObject:
   - component: {fileID: 2491778745174183692}
   - component: {fileID: 722196880684624641}
   - component: {fileID: 1518886151582062313}
+  - component: {fileID: 5743337580602307223}
   m_Layer: 0
   m_Name: NamePlate
   m_TagString: Untagged
@@ -855,7 +862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -883,7 +890,7 @@ MonoBehaviour:
             guid: 
             id: a2c1cade7ddd6544cb06569e6a2d4293|Packages/wtf.buddyworks.toolbox/Toolbox/NPV_Parts/NamePlate_Menu.asset
             objRef: {fileID: 11400000, guid: a2c1cade7ddd6544cb06569e6a2d4293, type: 2}
-          prefix: <color=#FDDA0D><b>Toolbox
+          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Nameplates
         prms:
         - parameters:
             version: 1
@@ -892,7 +899,9 @@ MonoBehaviour:
             id: d11051f1f99872f4e9b4114a456654ad|Packages/wtf.buddyworks.toolbox/Toolbox/NPV_Parts/NamePlate_Parameters.asset
             objRef: {fileID: 11400000, guid: d11051f1f99872f4e9b4114a456654ad, type: 2}
         smoothedPrms: []
-        globalParams: []
+        globalParams:
+        - Toolbox/Nameplate_Toggle
+        - Toolbox/Nameplate_Range
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
@@ -946,6 +955,40 @@ ScaleConstraint:
   - sourceTransform: {fileID: 2037660835777474481, guid: 384bb104df8651b43a9ae02912a4956d,
       type: 3}
     weight: 1
+--- !u!114 &5743337580602307223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6415656129874294291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.836.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7047377323553980774
+  references:
+    version: 2
+    RefIds:
+    - rid: 7047377323553980774
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Nameplates
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 9c89f2e3eddb95849aa7b52daf5e2c15|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/Tag.png
+          objRef: {fileID: 2800000, guid: 9c89f2e3eddb95849aa7b52daf5e2c15, type: 3}
 --- !u!1 &7428870899155363294
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,7 +1036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1138,7 +1181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1166,7 +1209,7 @@ MonoBehaviour:
             guid: 
             id: 8160bab72b1e84b428cbe15973fa8034|Packages/wtf.buddyworks.toolbox/Toolbox/Light_Parts/Lights-Menu.asset
             objRef: {fileID: 11400000, guid: 8160bab72b1e84b428cbe15973fa8034, type: 2}
-          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Light
+          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Light
         prms:
         - parameters:
             version: 1
@@ -1226,7 +1269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1239,13 +1282,155 @@ MonoBehaviour:
       type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 1
-        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Light
+        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Light
         icon:
           version: 1
           fileID: 0
           guid: 
           id: 4900f71bb8b7575409c6646011adbde1|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/Sun.png
           objRef: {fileID: 2800000, guid: 4900f71bb8b7575409c6646011adbde1, type: 3}
+--- !u!1 &8944501618914086204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6621987023241686356}
+  - component: {fileID: 1567532065258794930}
+  - component: {fileID: 4004628097964327476}
+  m_Layer: 0
+  m_Name: QuickToggles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6621987023241686356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8944501618914086204}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 6595320519835830193}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1567532065258794930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8944501618914086204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.836.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7047377323553980523
+  references:
+    version: 2
+    RefIds:
+    - rid: 7047377323553980523
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers: []
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: db3eaf05c2c34fc44bcad571403051db|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/QuickToggles.asset
+            objRef: {fileID: 11400000, guid: db3eaf05c2c34fc44bcad571403051db, type: 2}
+          prefix: <color=#FDDA0D><b>Toolbox
+        prms: []
+        smoothedPrms: []
+        globalParams:
+        - Toolbox/Nameplate_Toggle
+        - Toolbox/Greenscreen/Toggle
+        - Toolbox/Wireframe
+        - Toolbox/Torch
+        - Toolbox/FullBright
+        - Toolbox/Greenscreen/Toggle
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
+--- !u!114 &4004628097964327476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8944501618914086204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.836.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 7047377323553980730
+  references:
+    version: 2
+    RefIds:
+    - rid: 7047377323553980730
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a06282136d558c54aa15d533f163ff59|Packages/com.vrchat.avatars/Samples/AV3
+            Demo Assets/Expressions Menu/Icons/item_folder.png
+          objRef: {fileID: 2800000, guid: a06282136d558c54aa15d533f163ff59, type: 3}
 --- !u!1 &9075165419656808196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,7 +1479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1322,7 +1507,7 @@ MonoBehaviour:
             guid: 
             id: 0dc7b460eba19644496f5505436e5d9a|Packages/wtf.buddyworks.toolbox/Toolbox/Greenscreen_Parts/GreenScreen_Menu.asset
             objRef: {fileID: 11400000, guid: 0dc7b460eba19644496f5505436e5d9a, type: 2}
-          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Greenscreen
+          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Greenscreen
         prms:
         - parameters:
             version: 1
@@ -1331,7 +1516,11 @@ MonoBehaviour:
             id: f856bbc5566dd7643ac1d78e1a15a314|Packages/wtf.buddyworks.toolbox/Toolbox/Greenscreen_Parts/GreenScreen_Parameters.asset
             objRef: {fileID: 11400000, guid: f856bbc5566dd7643ac1d78e1a15a314, type: 2}
         smoothedPrms: []
-        globalParams: []
+        globalParams:
+        - Toolbox/Greenscreen/Toggle
+        - Toolbox/Greenscreen/Scale
+        - Toolbox/Greenscreen/Saturation
+        - Toolbox/Greenscreen/Color
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
@@ -1378,7 +1567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.830.0
+  vrcfuryVersion: 1.836.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1391,7 +1580,7 @@ MonoBehaviour:
       type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 1
-        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Greenscreen
+        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Greenscreen
         icon:
           version: 1
           fileID: 0
