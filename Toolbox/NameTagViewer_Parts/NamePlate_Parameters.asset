@@ -18,8 +18,3 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 0
-  - name: Toolbox/Nameplate_Range
-    valueType: 1
-    saved: 1
-    defaultValue: 0.5
-    networkSynced: 0

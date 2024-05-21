@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -200,8 +200,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -354,8 +354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -437,8 +437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -823,7 +823,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2491778745174183692}
   - component: {fileID: 722196880684624641}
-  - component: {fileID: 1518886151582062313}
   - component: {fileID: 5743337580602307223}
   m_Layer: 0
   m_Name: NamePlate
@@ -861,8 +860,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -880,7 +879,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: f5ec0a4b0d5c3cc419f6d644472fec34|Packages/wtf.buddyworks.toolbox/Toolbox/NPV_Parts/NamePlate_FX.controller
+            id: f5ec0a4b0d5c3cc419f6d644472fec34|Packages/wtf.buddyworks.toolbox/Toolbox/NameTagViewer_Parts/NamePlate_FX.controller
             objRef: {fileID: 9100000, guid: f5ec0a4b0d5c3cc419f6d644472fec34, type: 2}
           type: 5
         menus:
@@ -888,7 +887,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: a2c1cade7ddd6544cb06569e6a2d4293|Packages/wtf.buddyworks.toolbox/Toolbox/NPV_Parts/NamePlate_Menu.asset
+            id: a2c1cade7ddd6544cb06569e6a2d4293|Packages/wtf.buddyworks.toolbox/Toolbox/NameTagViewer_Parts/NamePlate_Menu.asset
             objRef: {fileID: 11400000, guid: a2c1cade7ddd6544cb06569e6a2d4293, type: 2}
           prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Nameplates
         prms:
@@ -896,12 +895,11 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d11051f1f99872f4e9b4114a456654ad|Packages/wtf.buddyworks.toolbox/Toolbox/NPV_Parts/NamePlate_Parameters.asset
+            id: d11051f1f99872f4e9b4114a456654ad|Packages/wtf.buddyworks.toolbox/Toolbox/NameTagViewer_Parts/NamePlate_Parameters.asset
             objRef: {fileID: 11400000, guid: d11051f1f99872f4e9b4114a456654ad, type: 2}
         smoothedPrms: []
         globalParams:
         - Toolbox/Nameplate_Toggle
-        - Toolbox/Nameplate_Range
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
@@ -934,27 +932,6 @@ MonoBehaviour:
         removePrefixes: []
         addPrefix: 
         useSecurityForToggle: 0
---- !u!1818360610 &1518886151582062313
-ScaleConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6415656129874294291}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Weight: 1
-  m_ScaleAtRest: {x: 1, y: 1, z: 1}
-  m_ScaleOffset: {x: 1, y: 1, z: 1}
-  m_AffectScalingX: 1
-  m_AffectScalingY: 1
-  m_AffectScalingZ: 1
-  m_Active: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 2037660835777474481, guid: 384bb104df8651b43a9ae02912a4956d,
-      type: 3}
-    weight: 1
 --- !u!114 &5743337580602307223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -968,8 +945,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1035,8 +1012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1110,7 +1087,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fc531a3c621e13d489ccfb0d17a71586, type: 2}
+  - {fileID: 2100000, guid: 88425be3d5bb42c47950c3121710f6cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1180,8 +1157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1268,8 +1245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1335,8 +1312,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1409,8 +1386,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1478,8 +1455,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1566,8 +1543,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.836.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.860.0
   somethingIsBroken: 0
   config:
     features: []
