@@ -7,13 +7,11 @@ namespace BUDDYWORKS.ToolBox
     {
         private static string prefabGUID = "0e07d7ed7da2cc1449f6cc1be73f35fe";
         // Dependency check
-        private static string liltoonShader = "lilToon";
         private static string VRCF_Path = "Packages/com.vrcfury.vrcfury";
 
         [MenuItem("BUDDYWORKS/Toolbox/Spawn Prefab... [VRCFury]", false, 0)]
         private static void SpawnToolBoxPrefab()
         {
-            CheckShaderPresence(liltoonShader);
             SpawnPrefab(prefabGUID);
         }
 
@@ -56,27 +54,6 @@ namespace BUDDYWORKS.ToolBox
             else
             {
                 Debug.LogError("[Toolbox] Failed to instantiate prefab with GUID " + guid);
-            }
-        }
-
-        private static void CheckShaderPresence(string shaderName)
-        {
-            // Attempt to find the shader by its name
-            Shader shader = Shader.Find(shaderName);
-
-            // Check if the shader was found
-            if (shader != null)
-            {
-                return;
-            }
-            else
-            {
-                bool result = EditorUtility.DisplayDialog("Shader missing!", "Some features need \"" + shaderName + "\", please import it before usage.", "Download shader", "Got it!");
-                if (result)
-                {
-                    Application.OpenURL("https://github.com/lilxyzw/lilToon/releases");
-                }
-                Debug.LogWarning("[Toolbox] Shader \"" + shaderName + "\" is NOT present in the project.");
             }
         }
     }
