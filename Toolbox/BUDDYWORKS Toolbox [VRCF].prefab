@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -200,8 +200,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -354,8 +354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -437,8 +437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -860,8 +860,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -879,24 +879,24 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: f5ec0a4b0d5c3cc419f6d644472fec34|Packages/wtf.buddyworks.toolbox/Toolbox/NameTagViewer_Parts/NamePlate_FX.controller
-            objRef: {fileID: 9100000, guid: f5ec0a4b0d5c3cc419f6d644472fec34, type: 2}
+            id: b69193a7a73b14c458b85de7b88a0398|Packages/wtf.buddyworks.toolbox/Toolbox/NamePlateViewer_Parts/NamePlate_FX.controller
+            objRef: {fileID: 9100000, guid: b69193a7a73b14c458b85de7b88a0398, type: 2}
           type: 5
         menus:
         - menu:
             version: 1
             fileID: 0
             guid: 
-            id: a2c1cade7ddd6544cb06569e6a2d4293|Packages/wtf.buddyworks.toolbox/Toolbox/NameTagViewer_Parts/NamePlate_Menu.asset
-            objRef: {fileID: 11400000, guid: a2c1cade7ddd6544cb06569e6a2d4293, type: 2}
+            id: 237030eb25f89424eae9446d755469c5|Packages/wtf.buddyworks.toolbox/Toolbox/NamePlateViewer_Parts/NamePlate_Menu.asset
+            objRef: {fileID: 11400000, guid: 237030eb25f89424eae9446d755469c5, type: 2}
           prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Nameplates
         prms:
         - parameters:
             version: 1
             fileID: 0
             guid: 
-            id: d11051f1f99872f4e9b4114a456654ad|Packages/wtf.buddyworks.toolbox/Toolbox/NameTagViewer_Parts/NamePlate_Parameters.asset
-            objRef: {fileID: 11400000, guid: d11051f1f99872f4e9b4114a456654ad, type: 2}
+            id: 3d41c0335d66a4f4a90c478666dc5145|Packages/wtf.buddyworks.toolbox/Toolbox/NamePlateViewer_Parts/NamePlate_Parameters.asset
+            objRef: {fileID: 11400000, guid: 3d41c0335d66a4f4a90c478666dc5145, type: 2}
         smoothedPrms: []
         globalParams:
         - Toolbox/Nameplate_Toggle
@@ -945,8 +945,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1012,8 +1012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1157,8 +1157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1245,8 +1245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1312,8 +1312,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1386,8 +1386,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1455,8 +1455,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1543,8 +1543,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.860.0
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.906.0
   somethingIsBroken: 0
   config:
     features: []
