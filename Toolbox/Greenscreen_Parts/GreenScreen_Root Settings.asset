@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: NamePlate_Menu
+  m_Name: GreenScreen_Root Settings
   m_EditorClassIdentifier: 
   controls:
-  - name: <color=#FDDA0D><b>Nameplate Viewer
-    icon: {fileID: 2800000, guid: 9c89f2e3eddb95849aa7b52daf5e2c15, type: 3}
-    type: 102
+  - name: <color=#FDDA0D><b>Greenscreen
+    icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
+    type: 103
     parameter:
-      name: Toolbox/Nameplate_Toggle
+      name: 
     value: 1
     style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
+    subMenu: {fileID: 11400000, guid: 0dc7b460eba19644496f5505436e5d9a, type: 2}
+    subParameters:
+    - name: 
     labels: []

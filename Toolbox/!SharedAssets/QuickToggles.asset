@@ -23,36 +23,6 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: <color=#FDDA0D><b>Wireframe</b></color>
-    icon: {fileID: 2800000, guid: aac33737b7aa3174a8c76c7ef582f3d8, type: 3}
-    type: 102
-    parameter:
-      name: Toolbox/Wireframe
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <color=#FDDA0D><b>Torch</b></color>
-    icon: {fileID: 2800000, guid: ab6dae33d7a158a44a4fff12d8567a91, type: 3}
-    type: 102
-    parameter:
-      name: Toolbox/Torch
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <color=#FDDA0D><b>FullBright</b></color>
-    icon: {fileID: 2800000, guid: cc4c13c05f8c4e943885903095b7474a, type: 3}
-    type: 102
-    parameter:
-      name: Toolbox/FullBright
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
   - name: <color=#FDDA0D><b>Greenscreen</b></color>
     icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 102

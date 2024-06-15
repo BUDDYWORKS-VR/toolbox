@@ -3,19 +3,61 @@ using UnityEditor;
 
 namespace BUDDYWORKS.ToolBox
 {
-    public class SpawnToolboxPrefab : MonoBehaviour
+    public class PrefabSpawner : MonoBehaviour
     {
-        private static string prefabGUID = "0e07d7ed7da2cc1449f6cc1be73f35fe"; //Define prefab to spawn by GUID.
+        private static string legacyPrefabGUID = "0e07d7ed7da2cc1449f6cc1be73f35fe";
+
+        private static string nameplateviewerPrefabGUID = "c6fad3e9a3186d344945448868fa1dbc";
+        private static string lightsPrefabGUID = "11c4b6c2f5fe1bf4d81189e556188a8f";
+        private static string wireframePrefabGUID = "94604ea2856ebe54f890f6a144cf8c3e";
+        private static string greenscreenPrefabGUID = "00793a8c49981c84ca63b04b4734ed3c";
+
         private static string dependencyPackage = "Packages/com.vrcfury.vrcfury"; //Dependency check for presence of a package, in this case VRCFury.
 
-        [MenuItem("BUDDYWORKS/Toolbox/Spawn Prefab... [VRCFury]", false, 0)]
-        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Prefab... [VRCFury]")]
-        private static void SpawnToolBoxPrefab() {
-            SpawnPrefab(prefabGUID); //Runs SpawnPrefab with the given GUID.
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn All Prefabs... [VRCFury]", false, 0)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn All Prefabs... [VRCFury]")]
+        private static void SpawnAllPrefabs() {
+            var prefabGUIDs = new[] { nameplateviewerPrefabGUID, lightsPrefabGUID, wireframePrefabGUID, greenscreenPrefabGUID };
+            foreach (var guid in prefabGUIDs)
+            {
+                SpawnPrefab(guid);
+            }
         }
 
-        [MenuItem("BUDDYWORKS/Toolbox/Spawn Prefab... [VRCFury]", true)]
-        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Prefab... [VRCFury]", true)]
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn NameplateViewer Prefab... [VRCFury]", false, 11)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn NameplateViewer Prefab... [VRCFury]")]
+        private static void SpawnNPVPrefab() {
+            SpawnPrefab(nameplateviewerPrefabGUID);
+        }
+
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Lights Prefab... [VRCFury]", false, 12)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Lights Prefab... [VRCFury]")]
+        private static void SpawnLightsPrefab() {
+            SpawnPrefab(lightsPrefabGUID);
+        }
+
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Wireframe Prefab... [VRCFury]", false, 13)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Wireframe Prefab... [VRCFury]")]
+        private static void SpawnWireframePrefab() {
+            SpawnPrefab(wireframePrefabGUID);
+        }
+
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Greenscreen Prefab... [VRCFury]", false, 13)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Greenscreen Prefab... [VRCFury]")]
+        private static void SpawnGreenscreenPrefab() {
+            SpawnPrefab(greenscreenPrefabGUID);
+        }
+
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn All Prefabs... [VRCFury]", true)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn All Prefabs... [VRCFury]", true)]
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn NameplateViewer Prefab... [VRCFury]", true)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn NameplateViewer Prefab... [VRCFury]", true)]
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Lights Prefab... [VRCFury]", true)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Lights Prefab... [VRCFury]", true)]
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Wireframe Prefab... [VRCFury]", true)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Wireframe Prefab... [VRCFury]", true)]
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn Greenscreen Prefab... [VRCFury]", true)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Greenscreen Prefab... [VRCFury]", true)]
         private static bool ValidateSpawnToolBoxPrefab() {
             return AssetDatabase.IsValidFolder(dependencyPackage) != false; //Checks if the defined package is present.
         }

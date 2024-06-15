@@ -148,7 +148,7 @@ Light:
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -229,7 +229,7 @@ MonoBehaviour:
             guid: 
             id: 6b26b5a85e39a1845aae47c737a70b77|Packages/wtf.buddyworks.toolbox/Toolbox/WireFrame_Parts/Wireframe_Root.asset
             objRef: {fileID: 11400000, guid: 6b26b5a85e39a1845aae47c737a70b77, type: 2}
-          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings
+          prefix: <color=#FDDA0D><b>Toolbox
         prms:
         - parameters:
             version: 1
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 6595320519835830193}
   - component: {fileID: 7466079020414247849}
   m_Layer: 0
-  m_Name: BUDDYWORKS Toolbox [VRCF]
+  m_Name: BUDDYWORKS Toolbox [LEGACY] [VRCF]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1254,7 +1254,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3854334756930604301}
   - component: {fileID: 5480218061432022672}
-  - component: {fileID: 8942846928555857155}
   m_Layer: 0
   m_Name: Lights
   m_TagString: Untagged
@@ -1319,9 +1318,10 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 8160bab72b1e84b428cbe15973fa8034|Packages/wtf.buddyworks.toolbox/Toolbox/Light_Parts/Lights-Menu.asset
+            id: 8160bab72b1e84b428cbe15973fa8034|Packages/wtf.buddyworks.toolbox/Toolbox/Light_Parts/Lights-Menu
+              Root.asset
             objRef: {fileID: 11400000, guid: 8160bab72b1e84b428cbe15973fa8034, type: 2}
-          prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Light
+          prefix: <color=#FDDA0D><b>Toolbox
         prms:
         - parameters:
             version: 1
@@ -1342,6 +1342,9 @@ MonoBehaviour:
         rootBindingsApplyToAvatar: 0
         rewriteBindings:
         - from: Toolbox [VRCF]/Lights/
+          to: 
+          delete: 0
+        - from: BUDDYWORKS Toolbox [VRCF]/Lights/
           to: 
           delete: 0
         allowMissingAssets: 0
@@ -1367,40 +1370,6 @@ MonoBehaviour:
         removePrefixes: []
         addPrefix: 
         useSecurityForToggle: 0
---- !u!114 &8942846928555857155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8146893343443668133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 3
-  unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.942.0
-  somethingIsBroken: 0
-  config:
-    features: []
-  content:
-    rid: 1425553192052588630
-  references:
-    version: 2
-    RefIds:
-    - rid: 1425553192052588630
-      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
-      data:
-        version: 1
-        path: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Light
-        icon:
-          version: 1
-          fileID: 0
-          guid: 
-          id: 4900f71bb8b7575409c6646011adbde1|Packages/wtf.buddyworks.toolbox/Toolbox/!SharedAssets/Sun.png
-          objRef: {fileID: 2800000, guid: 4900f71bb8b7575409c6646011adbde1, type: 3}
 --- !u!1 &9075165419656808196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,7 +1444,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 0dc7b460eba19644496f5505436e5d9a|Packages/wtf.buddyworks.toolbox/Toolbox/Greenscreen_Parts/GreenScreen_Menu.asset
+            id: 0dc7b460eba19644496f5505436e5d9a|Packages/wtf.buddyworks.toolbox/Toolbox/Greenscreen_Parts/GreenScreen_Settings.asset
             objRef: {fileID: 11400000, guid: 0dc7b460eba19644496f5505436e5d9a, type: 2}
           prefix: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Greenscreen
         prms:
