@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: GreenScreen_Menu
+  m_Name: GreenScreen_Settings
   m_EditorClassIdentifier: 
   controls:
-  - name: Toggle
+  - name: <color=#FDDA0D><b>Toggle
     icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 102
     parameter:
@@ -23,7 +23,7 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Scale
+  - name: <color=#FDDA0D><b>Scale
     icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 203
     parameter:
@@ -44,7 +44,7 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: Saturation
+  - name: <color=#FDDA0D><b>Saturation
     icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 203
     parameter:
@@ -55,7 +55,7 @@ MonoBehaviour:
     subParameters:
     - name: Toolbox/Greenscreen/Saturation
     labels: []
-  - name: Color
+  - name: <color=#FDDA0D><b>Color
     icon: {fileID: 2800000, guid: 698e8708e85132048bd2fd05b7a4e426, type: 3}
     type: 203
     parameter:
