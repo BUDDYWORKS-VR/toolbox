@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wireframe_Menu
   m_EditorClassIdentifier: 
   controls:
-  - name: <color=#FDDA0D><b>Toggle Wireframe</b></color>
+  - name: <color=#FDDA0D><b>Wireframe</b></color>
     icon: {fileID: 2800000, guid: e88179c2f3a8c6841b8d595a103c27bd, type: 3}
     type: 102
     parameter:
@@ -23,44 +23,11 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: <color=#FDDA0D><b>Distance</b></color>
+  - name: <color=#FDDA0D><b>Normalview</b></color>
     icon: {fileID: 2800000, guid: e88179c2f3a8c6841b8d595a103c27bd, type: 3}
-    type: 203
+    type: 102
     parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Toolbox/Wireframe_Distance
-    labels: []
-  - name: <color=#FDDA0D><b>Color</b></color>
-    icon: {fileID: 2800000, guid: e88179c2f3a8c6841b8d595a103c27bd, type: 3}
-    type: 203
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Toolbox/Wireframe_Color
-    labels: []
-  - name: <color=#FDDA0D><b>Precision</b></color>
-    icon: {fileID: 2800000, guid: e88179c2f3a8c6841b8d595a103c27bd, type: 3}
-    type: 203
-    parameter:
-      name: 
-    value: 0
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Toolbox/Wireframe_Precision
-    labels: []
-  - name: <color=#F8B701><b>Reset</b></color>
-    icon: {fileID: 2800000, guid: ae453ff4bc2f44e49b904fb5acdd0164, type: 3}
-    type: 101
-    parameter:
-      name: Toolbox/Wireframe_Reset
+      name: Toolbox/Normalview
     value: 1
     style: 0
     subMenu: {fileID: 0}

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WireFrameNoCamera
-  m_Shader: {fileID: 4800000, guid: e494197a8f4c71645a14c5edc564d2c0, type: 3}
+  m_Name: Normalview
+  m_Shader: {fileID: 4800000, guid: 36b46dbbce4e4b145bec9f3b7b31e614, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -25,9 +25,14 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _WireSmoothness: 3
+    - _WireThickness: 100
     - _delta: 2
     - _dist: 0.001
     m_Colors:
     - _BGC: {r: 0, g: 0, b: 0, a: 0.428}
+    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 1, b: 0, a: 1}
     - _LineC: {r: 1, g: 0, b: 0, a: 1}
+    - _WireframeColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
