@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: Greenscreen_Settings
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
   - name: <color=#FDDA0D><b>Toggle
     icon: {fileID: 2800000, guid: 584d4d3d954ee784e8f33403858ca075, type: 3}
@@ -23,16 +24,26 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
+  - name: <color=#FDDA0D><b>Shape
+    icon: {fileID: 2800000, guid: 584d4d3d954ee784e8f33403858ca075, type: 3}
+    type: 102
+    parameter:
+      name: Toolbox/Greenscreen/Shape
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
   - name: <color=#FDDA0D><b>Scale
     icon: {fileID: 2800000, guid: 584d4d3d954ee784e8f33403858ca075, type: 3}
-    type: 203
+    type: 103
     parameter:
       name: 
     value: 0
     style: 0
-    subMenu: {fileID: 0}
+    subMenu: {fileID: 11400000, guid: a52b740fe88b69f4a97f7dc7fcb35ca8, type: 2}
     subParameters:
-    - name: Toolbox/Greenscreen/Scale
+    - name: 
     labels: []
   - name: <b><size=23><line-height=100%><voffset=24.5em>Disable World Post-Processing
     icon: {fileID: 2800000, guid: 584d4d3d954ee784e8f33403858ca075, type: 3}

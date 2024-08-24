@@ -18,11 +18,6 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 0
-  - name: Toolbox/Greenscreen/Scale
-    valueType: 1
-    saved: 1
-    defaultValue: 0
-    networkSynced: 0
   - name: Toolbox/Greenscreen/Saturation
     valueType: 1
     saved: 1
@@ -30,6 +25,26 @@ MonoBehaviour:
     networkSynced: 0
   - name: Toolbox/Greenscreen/Color
     valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: Toolbox/Greenscreen/Scale_X
+    valueType: 1
+    saved: 1
+    defaultValue: 0.25
+    networkSynced: 0
+  - name: Toolbox/Greenscreen/Scale_Y
+    valueType: 1
+    saved: 1
+    defaultValue: 0.25
+    networkSynced: 0
+  - name: Toolbox/Greenscreen/Scale_Z
+    valueType: 1
+    saved: 1
+    defaultValue: 0.25
+    networkSynced: 0
+  - name: Toolbox/Greenscreen/Shape
+    valueType: 2
     saved: 1
     defaultValue: 0
     networkSynced: 0

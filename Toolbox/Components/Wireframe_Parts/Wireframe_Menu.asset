@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: Wireframe_Menu
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
   - name: <color=#FDDA0D><b>Wireframe</b></color>
     icon: {fileID: 2800000, guid: e88179c2f3a8c6841b8d595a103c27bd, type: 3}
