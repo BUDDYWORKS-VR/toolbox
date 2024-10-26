@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1008.0
+  vrcfuryVersion: 1.1135.0
   somethingIsBroken: 0
   config:
     features: []
@@ -101,6 +101,8 @@ MonoBehaviour:
           to: 
           delete: 0
         allowMissingAssets: 0
+        injectSpsDepthParam: 
+        injectSpsVelocityParam: 
         controller:
           version: 1
           fileID: 0
@@ -137,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1008.0
+  vrcfuryVersion: 1.1135.0
   somethingIsBroken: 0
   config:
     features: []
@@ -372,20 +374,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1008.0
+  vrcfuryVersion: 1.1135.0
   somethingIsBroken: 0
   config:
     features: []
   content:
-    rid: 1871952087587225640
+    rid: 6619598269037150258
   references:
     version: 2
     RefIds:
-    - rid: 1871952087587225640
-      type: {class: WorldConstraint, ns: VF.Model.Feature, asm: VRCFury}
+    - rid: 6619598269037150258
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Greenscreen/<color=#FDDA0D><b>Drop
+        state:
+          actions:
+          - rid: 6619598269037150259
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 6619598269037150259
+      type: {class: WorldDropAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
-        menuPath: <color=#FDDA0D><b>Toolbox/<color=#FDDA0D><b>Settings/<color=#FDDA0D><b>Greenscreen/<color=#FDDA0D><b>Drop
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 7503959790900824533}
 --- !u!114 &6771567766725181596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,7 +457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1008.0
+  vrcfuryVersion: 1.1135.0
   somethingIsBroken: 0
   config:
     features: []

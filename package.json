@@ -1,7 +1,7 @@
 {
   "name" : "wtf.buddyworks.toolbox",
   "displayName" : "BUDDYWORKS Toolbox",
-  "version" : "1.5.0",
+  "version" : "1.5.2",
   "unity" : "2022.3",
   "description" : "Set of useful Avatar tools.",
   "author": {
@@ -9,6 +9,7 @@
     "email": "hi@buddyworks.wtf"
   },
     "vpmDependencies" : {
-    "com.vrchat.avatars" : "3.x.x"
+    "com.vrchat.avatars" : "3.x.x",
+    "com.vrcfury.vrcfury" : ">=1.1127.0"
   }
 }
