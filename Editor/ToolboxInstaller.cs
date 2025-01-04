@@ -11,13 +11,14 @@ namespace BUDDYWORKS.ToolBox
         private static string lightsPrefabGUID = "11c4b6c2f5fe1bf4d81189e556188a8f";
         private static string wireframePrefabGUID = "94604ea2856ebe54f890f6a144cf8c3e";
         private static string greenscreenPrefabGUID = "00793a8c49981c84ca63b04b4734ed3c";
+        private static string playermoverPrefabGUID = "0deb8fd5bc8bc424dab1e118cce362b0";
 
         private static string dependencyPackage = "Packages/com.vrcfury.vrcfury"; //Dependency check for presence of a package, in this case VRCFury.
 
         [MenuItem("BUDDYWORKS/Toolbox/Spawn All Prefabs... [VRCFury]", false, 0)]
         [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn All Prefabs... [VRCFury]")]
         private static void SpawnAllPrefabs() {
-            var prefabGUIDs = new[] { nameplateviewerPrefabGUID, lightsPrefabGUID, wireframePrefabGUID, greenscreenPrefabGUID };
+            var prefabGUIDs = new[] { nameplateviewerPrefabGUID, lightsPrefabGUID, wireframePrefabGUID, greenscreenPrefabGUID, playermoverPrefabGUID };
             foreach (var guid in prefabGUIDs)
             {
                 SpawnPrefab(guid);
@@ -48,6 +49,12 @@ namespace BUDDYWORKS.ToolBox
             SpawnPrefab(greenscreenPrefabGUID);
         }
 
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn PlayerMover Prefab... [VRCFury]", false, 14)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn PlayerMover Prefab... [VRCFury]")]
+        private static void SpawnPlayerMoverPrefab() {
+            SpawnPrefab(playermoverPrefabGUID);
+        }
+
         [MenuItem("BUDDYWORKS/Toolbox/Spawn All Prefabs... [VRCFury]", true)]
         [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn All Prefabs... [VRCFury]", true)]
         [MenuItem("BUDDYWORKS/Toolbox/Spawn NameplateViewer Prefab... [VRCFury]", true)]
@@ -58,6 +65,8 @@ namespace BUDDYWORKS.ToolBox
         [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Wireframe Prefab... [VRCFury]", true)]
         [MenuItem("BUDDYWORKS/Toolbox/Spawn Greenscreen Prefab... [VRCFury]", true)]
         [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn Greenscreen Prefab... [VRCFury]", true)]
+        [MenuItem("BUDDYWORKS/Toolbox/Spawn PlayerMover Prefab... [VRCFury]", true)]
+        [MenuItem("GameObject/BUDDYWORKS/Toolbox/Spawn PlayerMover Prefab... [VRCFury]", true)]
         private static bool ValidateSpawnToolBoxPrefab() {
             return AssetDatabase.IsValidFolder(dependencyPackage) != false; //Checks if the defined package is present.
         }
