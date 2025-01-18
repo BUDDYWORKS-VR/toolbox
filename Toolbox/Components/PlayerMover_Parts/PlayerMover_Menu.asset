@@ -15,7 +15,7 @@ MonoBehaviour:
   Parameters: {fileID: 0}
   controls:
   - name: <color=#FDDA0D><b>PlayerMover
-    icon: {fileID: 2800000, guid: cced14dea634bc440a9f80ecf6359601, type: 3}
+    icon: {fileID: 2800000, guid: ad3ebf786f9a1e64a8823454a35318b9, type: 3}
     type: 203
     parameter:
       name: Toolbox/PlayerMover_Toggle
