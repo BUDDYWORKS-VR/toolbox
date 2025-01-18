@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: Lights-Menu Settings Root
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
   - name: <color=#FDDA0D><b>Lights
     icon: {fileID: 2800000, guid: 4900f71bb8b7575409c6646011adbde1, type: 3}

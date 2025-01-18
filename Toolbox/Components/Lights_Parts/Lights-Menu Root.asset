@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: Lights-Menu Root
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
   controls:
   - name: <color=#FDDA0D><b>Torch
     icon: {fileID: 2800000, guid: c81776e18cd570e419011e640ce5c4a4, type: 3}
