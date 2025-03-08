@@ -32,6 +32,9 @@ Made to be used with Virtual Desktop’s Pasthrough Chroma-Cutout feature.
 Spawns a sphere around you, use the dials to adjust radius and color.  
 Might not work well when the world uses Post Processing, try to turn Post Processing off if it misbehaves.  
 
+**PlayerMover**  
+Radial-controlled station that can move players to otherwise unreachable places.
+
 Documentation: https://docs.buddyworks.wtf/toolbox/intro/
 
 Enjoy ❤️
