@@ -11,5 +11,7 @@
     "vpmDependencies" : {
     "com.vrchat.avatars" : "3.x.x",
     "com.vrcfury.vrcfury" : ">=1.1127.0"
-  }
+  },
+  "license": "LicenseRef-BDAL",
+  "licensesURL": "https://github.com/BUDDYWORKS-VR/poses-extension/raw/main/LICENSE"
 }
